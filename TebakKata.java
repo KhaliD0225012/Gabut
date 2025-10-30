@@ -86,7 +86,7 @@ public class TebakKata {
             }
             nyawa = turn;
         }
-        if (nyawa > 1 || output[0] != ' '|| output[1] != ' '|| output[2] != ' '|| output[3] != ' '){
+        if (nyawa > 1 || (output[0] != ' '&& output[1] != ' '&& output[2] != ' '&& output[3] != ' ')){
                 System.out.println("\n<< SELAMAT >>");
             } else {
             System.out.println("\nKesempatan habis");
