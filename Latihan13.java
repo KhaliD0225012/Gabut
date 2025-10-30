@@ -10,9 +10,9 @@ public class Latihan13 {
         String[] nama = {
             "Marsya", "Abrar", "Khalid", "Alim", "Iqra"
         };
-        System.out.print("Panggil mahasiswa nomor urut: ");
+        System.out.print("Panggil mahasiswa indeks: ");
         int a = s.nextInt();
-        System.out.println(nama[(a-1)]);
+        System.out.println(nama[a]);
         
     }
     
